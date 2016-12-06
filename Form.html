@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Form </title>
+</head>
+<body>
+<header>
+    <h1> Form demo </h1> </header>
+
+
+<p><a href="Links.html"> And what is next? </a></p>
+<br>
+
+<form>
+    <div>
+
+        <label> Insert your gender: <br>
+            <label>	<input type="placeholder" name="gender" value="Man"> Man </label>
+            <br>
+            <label><input type="checkbox" name="gender" value="Woman"> Woman</label>
+            <br>
+            <label>	<input type="radio" name="gender" value="other"> Other </label>
+        </label><br><br>
+
+    </div>
+
+
+    <div> <label> Answer: </label><select name="uncountry">
+        <option value= "Yes"> YESSS </option>
+        <option value="No"> NOOOO </option>
+    </select>
+    </div>
+
+    <label> Your message:
+        <br>
+        <label>
+<textarea cols=15 rows=8 name="message">
+</textarea></label><br><br>
+
+
+        <p><b>Ваша анкета</b></p>
+
+</form>
+
+<form name="form1" action="" method = "post" enctype ="multipart/form-data">
+
+
+    <label> Введите Вашу Фамилию: &nbsp &nbsp <input type="text" name="login" size=15 maxlength=8 value="guest" > </label><br><br>
+    <label> Введите Ваше Имя: <input type="text" name="firstname" size=15 maxlength=8 value="guest" > </label><br><br>
+
+
+    <label> Какую погоду вы любите: <br>
+        <input type="checkbox" name="weather" value="sun" checked> Солнечную
+        <br>
+        <input type="checkbox" name="weather" value="rainy" > Уютную дождливую
+        <br>
+        <input type="checkbox" name="weather" value="snow" > Снежное зимнее утро
+
+    </label><br><br>
+
+
+
+</body>
+</html>
